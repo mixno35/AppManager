@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<group android:checkableBehavior="single">
+        <item
+			android:id="@+id/action_information"
+			android:icon="@drawable/baseline_perm_device_information_24"
+			android:title="Information"/>
+		<item
+			android:id="@+id/action_details"
+			android:icon="@drawable/baseline_extension_24"
+			android:title="Details"/>
+		<item
+			android:id="@+id/action_permissions"
+			android:icon="@drawable/baseline_security_24"
+			android:title="Permissions"/>
+	</group>
+	
+	<item android:title="Other details">
+		<menu>
+			<item
+				android:id="@+id/action_classes"
+				android:icon="@drawable/baseline_view_carousel_24"
+				android:title="Classes"/>
+		</menu>
+	</item>
+
+</menu>

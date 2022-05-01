@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="?android:attr/selectableItemBackground"
+	android:clickable="true"
+	android:orientation="vertical"
+	android:id="@+id/item">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_weight="1.0"
+		android:gravity="center_vertical">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:layout_marginLeft="10dp"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="Large Text"
+				android:singleLine="true"
+				android:maxLines="1"
+				android:id="@+id/name_id"
+				android:textSize="16sp"
+				android:typeface="normal"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/text_id"
+				android:maxLines="1"
+				android:singleLine="true"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:alpha="0.6"
+				android:textSize="14sp"
+				android:layout_marginTop="5dp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:gravity="center_vertical|right"
+		android:paddingRight="10dp"
+		android:id="@+id/text_denied"
+		android:maxLines="1"
+		android:singleLine="true"
+		android:textColor="@color/colorAccent"
+		android:textSize="14sp"
+		android:text="Denied"
+		android:visibility="gone"
+		android:layout_marginBottom="10dp"
+		android:layout_marginTop="10dp"/>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"
+		android:layout_alignParentBottom="true"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"/>
+
+</LinearLayout>
+

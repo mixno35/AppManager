@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+	<PreferenceCategory
+		android:key="systemCategory"
+		android:title="System">
+
+		<SwitchPreference
+			android:key="themeKey"
+			android:defaultValue="false"
+			android:title="Dark theme"/>	
+		
+	</PreferenceCategory>
+	
+<!--	<PreferenceCategory-->
+<!--		android:key="screenCategory"-->
+<!--		android:title="Screen">-->
+<!--	-->
+<!--		<SwitchPreference-->
+<!--			android:key="adsKey"-->
+<!--			android:defaultValue="false"-->
+<!--			android:title="Disable all ads banners"/>-->
+
+<!--	</PreferenceCategory>-->
+
+</PreferenceScreen>

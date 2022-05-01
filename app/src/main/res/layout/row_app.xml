@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:foreground="?android:attr/selectableItemBackground"
+	android:clickable="true"
+	android:layout_width="match_parent"
+	android:layout_height="85dp">
+
+	<ImageView
+		android:id="@+id/icon_id"
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:src="@drawable/ic_launcher"
+		android:layout_marginTop="6dp"
+		android:layout_marginLeft="15dp"/>
+
+	<TextView
+		android:id="@+id/name_id"
+		android:layout_toRightOf="@id/icon_id"
+		android:layout_toEndOf="@id/icon_id"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_marginTop="6dp"
+		android:layout_marginLeft="9dp"
+		android:textStyle="bold"
+		android:textSize="15sp"/>
+
+	<TextView
+		android:id="@+id/package_id"
+		android:layout_below="@id/name_id"
+		android:layout_toEndOf="@id/icon_id"
+		android:layout_toRightOf="@id/icon_id"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="9dp"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_marginTop="4dp"
+		android:textSize="13sp"
+		android:alpha="0.6"/>
+
+	<TextView
+		android:id="@+id/version_id"
+		android:layout_below="@id/package_id"
+		android:layout_toEndOf="@id/icon_id"
+		android:layout_toRightOf="@id/icon_id"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="9dp"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textSize="13sp"
+		android:layout_marginTop="2dp"
+		android:alpha="0.6"/>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:layout_alignParentBottom="true"
+		android:layout_toRightOf="@id/icon_id"
+		android:layout_marginLeft="9dp"/>
+
+	<ImageView
+		android:id="@+id/icon_running"
+		android:layout_width="17dp"
+		android:layout_height="17dp"
+		android:layout_margin="10dp"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:tint="@color/colorAccent"
+		android:visibility="gone"
+		android:src="@drawable/ic_app_running_black_24dp"/>
+
+</RelativeLayout>
+

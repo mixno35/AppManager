@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:paddingBottom="0dp">
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal">
+
+					<ImageView
+						android:src="@drawable/ic_launcher"
+						android:layout_width="49dp"
+						android:layout_height="49dp"
+						android:layout_marginBottom="10dp"
+						android:layout_marginTop="10dp"
+						android:id="@+id/icon_id"/>
+
+					<TextView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="Large Text"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:id="@+id/name_id"
+						android:textSize="18sp"
+						android:textStyle="bold"/>
+
+					<TextView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="Large Text"
+						android:alpha="0.5"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:id="@+id/name_package"
+						android:textSize="14sp"
+						android:textStyle="normal"
+						android:layout_marginTop="5dp"
+						android:layout_marginBottom="10dp"/>
+
+				</LinearLayout>
+
+				<Button
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="Google Play"
+					android:layout_marginRight="7dp"
+					android:layout_marginTop="7dp"
+					android:id="@+id/btnGp"
+					android:layout_alignParentRight="true"
+					android:layout_alignParentTop="true"
+					android:backgroundTint="@color/windowButton"
+					android:stateListAnimator="@null"
+					android:padding="0dp"
+					android:textSize="11sp"
+					android:textColor="#FFFFFFFF"/>
+
+			</RelativeLayout>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"/>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<LinearLayout
+					android:id="@+id/btnOpen"
+					android:orientation="horizontal"
+					android:background="?android:attr/selectableItemBackground"
+					android:clickable="true"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_vertical">
+
+					<ImageView
+						android:src="@drawable/baseline_play_arrow_black_24"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="13dp"
+						android:layout_marginTop="16dp"
+						android:layout_marginBottom="16dp"
+						android:layout_marginRight="10dp"
+						android:tint="@color/colorIconMenu"
+						android:alpha="0.6"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Open"
+						android:tint="?android:attr/colorControlNormal"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textSize="15sp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/btnRemove"
+					android:orientation="horizontal"
+					android:background="?android:attr/selectableItemBackground"
+					android:clickable="true"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_vertical">
+
+					<ImageView
+						android:src="@drawable/baseline_delete_black_24"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="13dp"
+						android:layout_marginTop="16dp"
+						android:layout_marginBottom="16dp"
+						android:layout_marginRight="10dp"
+						android:tint="@color/colorIconMenu"
+						android:alpha="0.6"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Remove"
+						android:tint="?android:attr/colorControlNormal"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textSize="15sp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/btnShare"
+					android:orientation="horizontal"
+					android:background="?android:attr/selectableItemBackground"
+					android:clickable="true"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_vertical">
+
+					<ImageView
+						android:src="@drawable/baseline_share_black_24"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="13dp"
+						android:layout_marginTop="16dp"
+						android:layout_marginBottom="16dp"
+						android:layout_marginRight="10dp"
+						android:tint="@color/colorIconMenu"
+						android:alpha="0.6"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Share"
+						android:tint="?android:attr/colorControlNormal"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textSize="15sp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/btnSettings"
+					android:orientation="horizontal"
+					android:background="?android:attr/selectableItemBackground"
+					android:clickable="true"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_vertical">
+
+					<ImageView
+						android:src="@drawable/baseline_settings_black_24"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="13dp"
+						android:layout_marginTop="16dp"
+						android:layout_marginBottom="16dp"
+						android:layout_marginRight="10dp"
+						android:tint="@color/colorIconMenu"
+						android:alpha="0.6"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Settings"
+						android:tint="?android:attr/colorControlNormal"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textSize="15sp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/btnDetails"
+					android:orientation="horizontal"
+					android:background="?android:attr/selectableItemBackground"
+					android:clickable="true"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_vertical">
+
+					<ImageView
+						android:src="@drawable/baseline_category_black_24"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="13dp"
+						android:layout_marginTop="16dp"
+						android:layout_marginBottom="16dp"
+						android:layout_marginRight="10dp"
+						android:tint="@color/colorIconMenu"
+						android:alpha="0.6"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Details"
+						android:tint="?android:attr/colorControlNormal"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:textSize="15sp"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+<!--			<androidx.recyclerview.widget.RecyclerView-->
+<!--				android:id="@+id/recycler_view"-->
+<!--				android:layout_width="match_parent"-->
+<!--				android:layout_height="match_parent"/>-->
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</ScrollView>
+

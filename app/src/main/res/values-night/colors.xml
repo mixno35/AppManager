@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="windowBackground">#FF151515</color>
+	<color name="textColorPrimary">#FFFFFFFF</color>
+	<color name="colorPrimary">#FF252525</color>
+	<color name="colorPrimaryDark">#FF252525</color>
+	<color name="colorAccent">#FF649EF7</color>
+	<color name="navigationBarColor">#FF000000</color>
+	<color name="colorControlNormal">#FFFFFFFF</color>
+	<color name="windowBackgroundTabLayout">#FF252525</color>
+	<color name="tabIndicatorColor">#FFFFFFFF</color>
+	<color name="colorIconMenu">#B7FFFFFF</color>
+	<color name="windowButton">#FF5095FF</color>
+	<color name="windowPage">#FF202020</color>
+	<color name="windowInfo">#FF444444</color>
+	<color name="backgroundBottomSheetDialog">#FF000000</color>
+	<color name="backgroundDescriptionPermission">#0DFFFFFF</color>
+</resources>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jaredrummler:apk-parser:1.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/74ce4429a2bbfb7f1496f6ac87c37ba6/apk-parser-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/74ce4429a2bbfb7f1496f6ac87c37ba6/apk-parser-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/74ce4429a2bbfb7f1496f6ac87c37ba6/apk-parser-1.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jaredrummler/apk-parser/1.0.2/259257f42b2fbefad6fd1c88e4d5e4f6b658b075/apk-parser-1.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jaredrummler/apk-parser/1.0.2/11e87af2fffdf3016f9b97f50b2f7d3ea910c680/apk-parser-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppManager</string>
+    <string name="hello_world">Hello world!</string>
+
+	<string name="adsBanner">ca-app-pub-2543059856849154/6075830636</string>
+	<string name="adsReward">ca-app-pub-2543059856849154/2910611240</string>
+	<string name="adsTest">5F037A172065F4C574AF2BD9AEF43938</string>
+	
+	<string name="navigation_drawer_open">Open</string>
+	<string name="navigation_drawer_close">Close</string>
+	
+</resources>
