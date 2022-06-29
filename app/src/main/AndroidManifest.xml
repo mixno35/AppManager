@@ -2,10 +2,11 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.xianitt.appmanager"
+    package="com.mixno.appmanager"
     android:installLocation="auto">
 
     <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
@@ -20,7 +21,7 @@
         tools:targetApi="n">
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.xianitt.appmanager.provider"
+            android:authorities="com.mixno.appmanager.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -28,7 +29,7 @@
                 android:resource="@xml/file_path"/>
         </provider>
         <activity
-            android:name="com.xianitt.appmanager.MainActivity"
+            android:name="com.mixno.appmanager.MainActivity"
             android:label="@string/app_name"
             android:launchMode="singleTop">
             <intent-filter>
@@ -44,22 +45,22 @@
                 android:resource="@xml/searchable" />
         </activity>
         <activity
-            android:name="com.xianitt.appmanager.DetailsActivity"
+            android:name="com.mixno.appmanager.DetailsActivity"
             android:label="@string/app_name"/>
         <activity
-            android:name="com.xianitt.appmanager.SettingsActivity"
+            android:name="com.mixno.appmanager.SettingsActivity"
             android:label="@string/app_name"/>
         <activity
-            android:name="com.xianitt.appmanager.ClassesActivity"
+            android:name="com.mixno.appmanager.ClassesActivity"
             android:label="@string/app_name"/>
         <activity
-            android:name="com.xianitt.appmanager.PermissionsActivity"
+            android:name="com.mixno.appmanager.PermissionsActivity"
             android:label="@string/app_name"/>
         <activity
-            android:name="com.xianitt.appmanager.ManifestActivity"
+            android:name="com.mixno.appmanager.ManifestActivity"
             android:label="@string/app_name"/>
         <activity
-            android:name="com.xianitt.appmanager.ResourcesActivity"
+            android:name="com.mixno.appmanager.ResourcesActivity"
             android:label="@string/app_name"/>
     </application>
 </manifest>
